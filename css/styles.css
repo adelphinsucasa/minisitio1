@@ -75,9 +75,13 @@
         list-style: none;
     }
     
-    .firstSection .firstSectionLogos li image {
-        width: 20px;
+    .firstSection .firstSectionLogos li img {
+        width: 30px;
+        height: 40px;
         gap: 10px;
+        display: inline-block;
+        min-height: 30px;
+        min-width: 40px;
     }    
     
     .cardsContainer {
@@ -239,11 +243,12 @@ header .mainText span {
 }
 
 .firstSection .firstSectionLogos li img {
-    width: 30px;
-    height: 30px;
-    gap: 20px;
+    width: 40px;
+    height: 80px;
+    gap: 10px;
     display: inline-block;
-    min-height: 30px;
+    min-height: 80px;
+    min-width: 120px;
 }    
 
 .cardsContainer {
