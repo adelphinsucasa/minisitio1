@@ -111,7 +111,7 @@
     }
     
     .cardsContainer .cards li .cardText {
-        padding: 10px 0;
+        padding: 10px 20px;
         color: rgb(2, 2, 38);
         width: 160px;
         text-align: center;
@@ -127,7 +127,7 @@
     
     .megaCorporations  .corporationstext {
         position: relative;
-        top: 70px;
+        top: 60px;
         left: 50px;
         width: 60%;
         height: 100px;
@@ -152,7 +152,7 @@
     .megaCorporations .imgBigCompanies {
         position: relative;
         left: 44%;
-        top: -80px;
+        top: -55px;
         width: 44%;
     }
     
@@ -238,9 +238,12 @@ header .mainText span {
     padding: 0 30px;
 }
 
-.firstSection .firstSectionLogos li image {
+.firstSection .firstSectionLogos li img {
     width: 30px;
+    height: 30px;
     gap: 20px;
+    display: inline-block;
+    min-height: 30px;
 }    
 
 .cardsContainer {
