@@ -179,15 +179,15 @@
     height: 50px;
     background-color: rgb(0, 0, 0);
     color: white;
-    font-size: 30px;
-    padding: 5px 50px;
+    font-size: 20px;
+    padding: 10px 50px;
 }
 
 header {
     height: 100vh;
-    background-image: url(../images/aisle-3105629__340.jpg), url(../images/stars-932873_1280.jpg);
-    background-repeat: no-repeat, no-repeat;
-    background-size: cover, cover;
+    background-image: url(../images/aisle-3105629__340.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 header .mainText {
@@ -196,17 +196,17 @@ header .mainText {
     border: 4px solid white;
     background-color: rgb(255,10,10,0.8);
     width: 20%;
-    height: 45%;
+    height: 40%;
     padding: 20px 20px;
     text-align: center;
     left: 20%;
-    bottom: 4%;
+    bottom: 6%;
     border-radius: 20px;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 header .mainText span {
-    font-size: 50px;
+    font-size: 25px;
 }
 
 .firstSection {
@@ -218,7 +218,7 @@ header .mainText span {
 
 .firstSection .firstSectionText {
     color: white;
-    font-size: 30px;
+    font-size: 20px;
     text-align: center;
     margin: 5px;
     padding: 50px 30px;
@@ -226,7 +226,7 @@ header .mainText span {
 
 .firstSection .firstSectionText span {
     color: red;
-    font-size: 80px;
+    font-size: 50px;
 }
 
 .firstSection .firstSectionLogos ul {
@@ -234,6 +234,7 @@ header .mainText span {
     align-items: center;
     justify-content: center;
     gap: 20px;
+    padding: 0 30px;
 }
 
 .firstSection .firstSectionLogos li image {
@@ -261,18 +262,22 @@ header .mainText span {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: calc(50% - 20px);
-    height: 300px;
+    width: calc(50% - 200px);
+    height: 220px;
     text-align: center;
     background-color: rgb(255, 255, 255, 0.8);
 }
 
+.cardsContainer .cards li img {
+    width: 100px;
+}
+
 .cardsContainer .cards li .cardText {
-    padding: 40px 0;
+    padding: 20px 0;
     color: rgb(2, 2, 38);
-    width: 300px;
+    width: 250px;
     text-align: center;
-    
+    font-size: 15px;
 }    
 
 .megaCorporations {
@@ -283,10 +288,10 @@ header .mainText span {
 
 .megaCorporations  .corporationstext {
     position: relative;
-    top: 200px;
-    left: 220px;
+    top: 240px;
+    left: 140px;
     width: 70%;
-    height: 180px;
+    height: 260px;
     background-color: rgb(2, 2, 38);
     color: white;
     text-align: center;
@@ -298,7 +303,7 @@ header .mainText span {
 
 .megaCorporations  .corporationstext p span {
     color: red;
-    font-size: 35px;
+    font-size: 30px;
 }
 
 .megaCorporations  .corporationstext p { 
@@ -307,9 +312,9 @@ header .mainText span {
 
 .megaCorporations .imgBigCompanies {
     position: relative;
-    left: 53%;
+    left: 48%;
     top: -120px;
-    width: 50%;
+    width: 40%;
 }
 
 .megaCorporations .imgBigCompanies img {
